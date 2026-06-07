@@ -1,11 +1,11 @@
-# 🛰️ Mission Control AI — MobilitySat
+#  Mission Control AI — MobilitySat
 
 > Sistema inteligente de monitoramento operacional de satélite GNSS com análise por IA generativa.  
 > **FIAP · Ciência da Computação · Global Solution 2026.1 · Trilha 4: MobilitySat**
 
 ---
 
-## 👥 Integrantes
+##  Integrantes
 
 | Nome Completo | RM | Turma |
 |---|---|---|
@@ -15,7 +15,7 @@
 
 ---
 
-## 🚀 O que o projeto faz
+##  O que o projeto faz
 
 **Mission Control AI — MobilitySat** é um sistema de monitoramento operacional de satélite GNSS de navegação que:
 
@@ -27,17 +27,17 @@
 
 ---
 
-## 🎭 Persona atendida
+##  Persona atendida
 
 O sistema atende três personas simultaneamente:
 
-- **🛰️ Engenheiro de segmento espacial** — linguagem técnica, valores exatos, recomendações de protocolo
-- **🚛 Gestor de frota logística** — precisa saber se as rotas dos seus 3.200 veículos estão confiáveis
-- **🌱 Operador de agricultura de precisão** — precisa saber se os drones e plantadeiras autônomas podem operar em 180.000 ha
+- ** Engenheiro de segmento espacial** — linguagem técnica, valores exatos, recomendações de protocolo
+- ** Gestor de frota logística** — precisa saber se as rotas dos seus 3.200 veículos estão confiáveis
+- ** Operador de agricultura de precisão** — precisa saber se os drones e plantadeiras autônomas podem operar em 180.000 ha
 
 ---
 
-## 💼 Proposta de valor / modelo de negócio
+##  Proposta de valor / modelo de negócio
 
 ### 1. Problema real terrestre que esta missão resolve
 
@@ -66,7 +66,7 @@ Se o satélite operar 100% saudável por 1 ano:
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 - **Python 3.10+** — linguagem principal, comentários em português
 - **Ollama Cloud API** — modelo `gpt-oss:120b` para análise em linguagem natural
@@ -77,7 +77,7 @@ Se o satélite operar 100% saudável por 1 ano:
 
 ---
 
-## ⚙️ Como executar
+##  Como executar
 
 ### Pré-requisitos
 
@@ -110,7 +110,7 @@ python main.py
 
 ---
 
-## 🖥️ Comandos da CLI
+##  Comandos da CLI
 
 | Comando | Descrição |
 |---|---|
@@ -127,14 +127,14 @@ python main.py
 
 ---
 
-## 📸 Demonstração
+##  Demonstração
 
 ![Banner inicial do Mission Control AI](assets/screenshot_banner.png)
 ![Análise da IA com dados reais de telemetria](assets/screenshot_analise.png)
 
 ---
 
-## 🧠 System Prompt
+##  System Prompt
 
 O system prompt completo está em [`prompts/system_prompt.md`](prompts/system_prompt.md).
 
@@ -146,7 +146,7 @@ Destaques da estratégia de prompting:
 
 ---
 
-## 🧪 Cenários de teste demonstrados
+##  Cenários de teste demonstrados
 
 1. **Operação normal** — todos os parâmetros dentro do range (`/modo normal`)
 2. **Drift crítico do oscilador** — impacto no posicionamento das frotas (`/modo critico`)
@@ -156,7 +156,7 @@ Destaques da estratégia de prompting:
 
 ---
 
-## ⚠️ Limitações conhecidas
+##  Limitações conhecidas
 
 - Dados de telemetria são **simulados** — não provêm de satélite real nem de TLE/SGP4
 - O modelo `gpt-oss:120b` é não-determinístico: respostas variam entre execuções com mesmos dados
@@ -166,11 +166,9 @@ Destaques da estratégia de prompting:
 
 ---
 
-## 🎬 Vídeo de demonstração
+##  Vídeo de demonstração
 
-🔗 [Assistir demonstração no YouTube](https://www.youtube.com/watch?v=SEU_ID_AQUI)
-
-> Configurado como "Não listado" no YouTube.
+🔗 [Assistir demonstração no YouTube](https://youtu.be/QTlQlm--moY)
 
 ---
 
