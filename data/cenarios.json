@@ -1,0 +1,39 @@
+{
+  "cenarios": [
+    {
+      "id": "nominal",
+      "nome": "Operação Normal",
+      "descricao": "Todos os parâmetros dentro dos limites nominais. Missão saudável.",
+      "modo_sim": "normal",
+      "pergunta_sugerida": "Como está a missão?"
+    },
+    {
+      "id": "drift_critico",
+      "nome": "Drift Crítico do Oscilador",
+      "descricao": "Oscilador atômico com deriva acima do limite. Impacto no posicionamento.",
+      "modo_sim": "critico",
+      "pergunta_sugerida": "O drift do oscilador afeta as frotas em campo?"
+    },
+    {
+      "id": "potencia_baixa",
+      "nome": "Potência Crítica",
+      "descricao": "Margem de potência abaixo de 20%. Modo economia ativado.",
+      "modo_sim": "critico",
+      "pergunta_sugerida": "Quais sistemas serão afetados pela queda de potência?"
+    },
+    {
+      "id": "sinal_degradado",
+      "nome": "Degradação de Sinal",
+      "descricao": "Sinais L1 e L5 abaixo dos limiares críticos.",
+      "modo_sim": "alerta",
+      "pergunta_sugerida": "A agricultura de precisão pode continuar operando?"
+    },
+    {
+      "id": "multiplos_alertas",
+      "nome": "Crise Múltipla",
+      "descricao": "Vários parâmetros em estado crítico simultaneamente.",
+      "modo_sim": "critico",
+      "pergunta_sugerida": "Quais ações emergenciais devo tomar agora?"
+    }
+  ]
+}

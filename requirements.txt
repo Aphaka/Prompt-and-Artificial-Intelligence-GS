@@ -1,0 +1,15 @@
+# Dependências Mission Control AI — MobilitySat
+# Instale com: pip install -r requirements.txt
+
+# Core IA e ambiente
+ollama>=0.4.7
+python-dotenv>=1.0.1
+
+# Interface CLI
+rich>=13.7.0
+prompt-toolkit>=3.0.43
+pyfiglet>=1.0.2
+
+# Opcionais (descomente se quiser usar)
+# pandas>=2.2.3
+# matplotlib>=3.9.2
